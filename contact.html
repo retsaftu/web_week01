@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My contact</title>
+  </head>
+  <body>
+		<div class="head">
+			<table>
+				<tr>
+					<th><a href="index.html">Home</a></th>
+					<th><a href="#" id="btn">Contact</a></th>
+					<th><a href="hobbies.html">Hobbies</a></th>
+				</tr>
+			</table>
+		</div>
+    <h3>My contacts</h3>
+    <p>Bostandyk district, Almaty</p>
+    <p>+7 701 999 16 31</p>
+    <p>tkazdayev@gmail.com</p>
+    <hr>
+
+    <form  action="mailto:tkazdayev@gmail.com" method="post">
+      <label>Your name: </label>
+      <input type="text" name="yourName" value="">
+			<br>
+      <label>Your email: </label>
+      <input type="email" name="yourEmail" value="">
+			<br>
+      <label>Your message: </label>
+			<br>
+      <textarea name="Message" rows="5" cols="100"></textarea><br>
+      <input type="submit" name="" value="Send">
+    </form>
+		<script>
+			function someFunc(){
+				alert("You already here");
+			}
+			document.getElementById("btn").onclick = someFunc;
+		</script>
+  </body>
+</html>
